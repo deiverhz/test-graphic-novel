@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Novela Gráfica TEST</title></head>
+	<body style="position: relative; width: 100%; height: auto; background: #000;">
+		<iframe id="novel-box" src="https://docs.google.com/presentation/d/e/2PACX-1vR3e--cFqFIUWl1tm43dveDyVWPvCR8oyCQfz7LeI4YHu2XecHTL7GEP5q8q0vJhFVQNWxGT0q_nYQY/embed?start=true&loop=false&delayms=99999999&rm=minimal"  frameborder="0" style="position: relative; width: 98%;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	</body>
+	<script>
+		window.addEventListener("load", (event) => {
+			document.querySelector("#novel-box").style.height = window.innerHeight + "px";
+			document.querySelector("body").style.overflowX = "hidden";
+		});
+	</script>
+</html>
